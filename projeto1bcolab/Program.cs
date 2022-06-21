@@ -11,13 +11,6 @@ namespace projeto1bcolab
         static void Main(string[] args)
         {
 <<<<<<< HEAD
-            smartphone samsung = new smartphone();
-            samsung.nome = "A31";
-            samsung.serie = 4654234256775;
-
-            Console.WriteLine("Nome:" + samsung.nome);
-            Console.WriteLine("Serie" + samsung.serie);
-=======
             int numero;
             Pessoa aluno;
             aluno = new Pessoa();
