@@ -10,7 +10,7 @@ namespace projeto1bcolab
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+            
             int numero;
             Pessoa aluno;
             aluno = new Pessoa();
@@ -19,7 +19,16 @@ namespace projeto1bcolab
             professor.nome = "Prof. Carvalho";
             Console.WriteLine("Aluno:" + aluno.nome);
             Console.WriteLine("Professor:" + professor.nome);
->>>>>>> 90271834b87cabf91cc79ff4ccc437b5644edc29
+
+            //willian--
+            SmartPhone samsung = new SmartPhone();
+            Console.WriteLine("===================================");
+            samsung.nome = "Samsung A31";
+            samsung.serie = int.Parse("634535242");
+            Console.WriteLine("SmartPhone:" + samsung.nome);
+            Console.WriteLine("Serie:" + samsung.serie);
+
+
             Console.ReadKey();
         }
     }
