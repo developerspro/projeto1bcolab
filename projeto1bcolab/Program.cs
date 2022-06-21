@@ -10,16 +10,16 @@ namespace projeto1bcolab
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+
             int numero;
             Pessoa aluno;
             aluno = new Pessoa();
             Pessoa professor = new Pessoa();
-            aluno.nome = "Pedro";
-            professor.nome = "Prof. Carvalho";
+            aluno.nome = "Gabriello";
+            professor.nome = "Prof. NosreffeJ";
             Console.WriteLine("Aluno:" + aluno.nome);
             Console.WriteLine("Professor:" + professor.nome);
->>>>>>> 90271834b87cabf91cc79ff4ccc437b5644edc29
+
             Console.ReadKey();
         }
     }
