@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace projeto1bcolab
 {
-    class Pessoa
+    class SmartPhone
     {
         public string nome;
-        public string email;
-<<<<<<< HEAD
-        public string algo_mais;
-=======
-        public string endereço;
-    
->>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
+        public string fabricante;
+        public int serie;
     }
 }
