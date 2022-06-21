@@ -16,6 +16,9 @@ namespace projeto1bcolab
 <<<<<<< HEAD
             Pessoa aluno = new Pessoa();
             Pessoa professor = new Pessoa();
+            aula alunos = new aula();
+            aluno.materia = "matematica";
+            aluno.tema = "fracao";
             aluno.nome = "stivem";
             aluno.email = "aluno@gmail.com";
             professor.nome = "jeferson";
@@ -25,6 +28,8 @@ namespace projeto1bcolab
             Console.WriteLine("email: " + aluno.email);
             Console.WriteLine("nome: " + professor.nome);
             Console.WriteLine("email: " + professor.email);
+            Console.WriteLine("materia: " + aluno.materia);
+            Console.WriteLine("fracao: " + aluno.tema);
 
             Console.ReadKey();
 
