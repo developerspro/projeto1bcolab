@@ -16,7 +16,7 @@ namespace projeto1bcolab
             aluno = new Pessoa();
             Pessoa professor = new Pessoa();
             aluno.nome = "Gabriello";
-            professor.nome = "Prof. NosreffeJ";
+            professor.nome = "Prof. NosreffeJ Jetli";
             Console.WriteLine("Aluno:" + aluno.nome);
             Console.WriteLine("Professor:" + professor.nome);
 
