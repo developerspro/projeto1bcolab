@@ -10,5 +10,6 @@ namespace projeto1bcolab
     {
         public string nome;
         public string email;
+        public string algo_mais;
     }
 }
