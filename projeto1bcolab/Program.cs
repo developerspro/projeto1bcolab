@@ -17,19 +17,23 @@ namespace projeto1bcolab
             Pessoa aluno = new Pessoa();
             Pessoa professor = new Pessoa();
             aula alunos = new aula();
+            musica cliente = new musica();
             aluno.materia = "matematica";
             aluno.tema = "fracao";
             aluno.nome = "stivem";
             aluno.email = "aluno@gmail.com";
             professor.nome = "jeferson";
             professor.email = "professor@gmail.com";
-
+            cliente.tipo = "rock";
+            cliente.artista = "metallica";
             Console.WriteLine("nome: " + aluno.nome);
             Console.WriteLine("email: " + aluno.email);
             Console.WriteLine("nome: " + professor.nome);
             Console.WriteLine("email: " + professor.email);
             Console.WriteLine("materia: " + aluno.materia);
             Console.WriteLine("fracao: " + aluno.tema);
+            Console.WriteLine("tipo:" + cliente.tipo);
+            Console.WriteLine("artista:" + cliente.artista);
 
             Console.ReadKey();
 
