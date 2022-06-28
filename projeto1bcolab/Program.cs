@@ -14,20 +14,25 @@ namespace projeto1bcolab
 
 //=======
 //<<<<<<< HEAD
-            Pessoa aluno = new Pessoa();
+
             Pessoa professor = new Pessoa();
             aula alunos = new aula();
             musica cliente = new musica();
             alunos.materia = "matematica";
             alunos.tema = "fracao";
+
+            //Stivem
+            Pessoa aluno = new Pessoa();
             aluno.nome = "stivem";
             aluno.email = "aluno@gmail.com";
+            Console.WriteLine("nome: " + aluno.nome);
+            Console.WriteLine("email: " + aluno.email);
+
             professor.nome = "jeferson";
             professor.email = "professor@gmail.com";
             cliente.tipo = "rock";
             cliente.artista = "metallica";
-            Console.WriteLine("nome: " + aluno.nome);
-            Console.WriteLine("email: " + aluno.email);
+
             Console.WriteLine("nome: " + professor.nome);
             Console.WriteLine("email: " + professor.email);
             Console.WriteLine("materia: " + alunos.materia);
@@ -57,6 +62,17 @@ namespace projeto1bcolab
             Console.WriteLine("SmartPhone:" + samsung.nome);
             Console.WriteLine("Serie:" + samsung.serie);
 
+            //Alexandre
+            veiculo carro = new veiculo();
+            carro.marca = "VW";
+            carro.modelo = "Fox";
+            carro.ano = "2016";
+            Console.WriteLine("\r\n Alexandre \r\n");
+            Console.WriteLine("Marca: " + carro.marca);
+            Console.WriteLine("Modelo: " + carro.modelo);
+            Console.WriteLine("Ano: " + carro.ano);
+
+            //Larissa
             animal gato = new animal();
             gato.nome = "start";
             gato.raça = "Siamês";
