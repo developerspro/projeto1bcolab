@@ -10,16 +10,16 @@ namespace projeto1bcolab
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
+//=======
+//<<<<<<< HEAD
             Pessoa aluno = new Pessoa();
             Pessoa professor = new Pessoa();
             aula alunos = new aula();
             musica cliente = new musica();
-            aluno.materia = "matematica";
-            aluno.tema = "fracao";
+            alunos.materia = "matematica";
+            alunos.tema = "fracao";
             aluno.nome = "stivem";
             aluno.email = "aluno@gmail.com";
             professor.nome = "jeferson";
@@ -30,27 +30,25 @@ namespace projeto1bcolab
             Console.WriteLine("email: " + aluno.email);
             Console.WriteLine("nome: " + professor.nome);
             Console.WriteLine("email: " + professor.email);
-            Console.WriteLine("materia: " + aluno.materia);
-            Console.WriteLine("fracao: " + aluno.tema);
+            Console.WriteLine("materia: " + alunos.materia);
+            Console.WriteLine("fracao: " + alunos.tema);
             Console.WriteLine("tipo:" + cliente.tipo);
             Console.WriteLine("artista:" + cliente.artista);
 
-            Console.ReadKey();
 
-=======
+//=======
             
->>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
-            int numero;
-            Pessoa aluno;
-            aluno = new Pessoa();
-            Pessoa professor = new Pessoa();
-            aluno.nome = "Gabriello";
-            professor.nome = "Prof. NosreffeJ Jetli";
-            Console.WriteLine("Aluno:" + aluno.nome);
-            Console.WriteLine("Professor:" + professor.nome);
+//>>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
+            Pessoa alun;
+            alun = new Pessoa();
+            Pessoa professora = new Pessoa();
+            alun.nome = "Gabriello";
+            professora.nome = "Prof. NosreffeJ Jetli";
+            Console.WriteLine("Aluno:" + alun.nome);
+            Console.WriteLine("Professor:" + professora.nome);
 
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
             //willian--
             SmartPhone samsung = new SmartPhone();
             Console.WriteLine("===================================");
@@ -59,10 +57,14 @@ namespace projeto1bcolab
             Console.WriteLine("SmartPhone:" + samsung.nome);
             Console.WriteLine("Serie:" + samsung.serie);
 
-
->>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
+            animal gato = new animal();
+            gato.nome = "start";
+            gato.raça = "Siamês";
+            Console.WriteLine("Animal:" + gato.nome);
+            Console.WriteLine("Raça:"+ gato.raça);
+//>>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
             Console.ReadKey();
->>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
+//>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
         }
     }
 }

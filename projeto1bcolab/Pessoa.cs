@@ -10,11 +10,11 @@ namespace projeto1bcolab
     {
         public string nome;
         public string email;
-<<<<<<< HEAD
+//<<<<<<< HEAD
         public string algo_mais;
-=======
+//=======
         public string endereço;
     
->>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
+//>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
     }
 }
