@@ -77,6 +77,11 @@ namespace projeto1bcolab
             marca2.marca = "gucci";
             Console.WriteLine("Marca: " + marca2.marca);
 
+            //Alice
+            acessorios pessoa = new projeto1bcolab.acessorios();
+            pessoa.acessorios = "pulseira";
+            Console.WriteLine("acessorio" +pessoa.acessorios);
+
             //Larissa
             animal gato = new animal();
             gato.nome = "start";
