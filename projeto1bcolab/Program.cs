@@ -62,6 +62,8 @@ namespace projeto1bcolab
             Console.WriteLine("SmartPhone:" + samsung.nome);
             Console.WriteLine("Serie:" + samsung.serie);
 
+          
+
             //Alexandre
             veiculo carro = new veiculo();
             carro.marca = "VW";
@@ -76,6 +78,14 @@ namespace projeto1bcolab
             marcas marca2 = new marcas();
             marca2.marca = "gucci";
             Console.WriteLine("Marca: " + marca2.marca);
+
+            //Leticia 
+            cores azul = new cores();
+            cores.nome = "azul";
+            cores.tonalidade = "azul escuro";
+            Console.WriteLine("cores:" +cores.nome);
+            Console.WriteLine("cores:" +cores.tonalidade);
+         
 
             //Alice
             acessorios pessoa = new projeto1bcolab.acessorios();
