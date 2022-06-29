@@ -98,9 +98,17 @@ namespace projeto1bcolab
             gato.raça = "Siamês";
             Console.WriteLine("Animal:" + gato.nome);
             Console.WriteLine("Raça:"+ gato.raça);
-//>>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
+            //>>>>>>> a0aebb70b263def098150bb3f267da33834aaa0c
+
+            //Renato
+            //bó bleis
+            jogo bbcf = new jogo();
+            bbcf.nome = "BlazBlue Centralfiction";
+            bbcf.genero = "Fighting Game";
+            Console.WriteLine($"Nome: {bbcf.nome}");
+            Console.WriteLine($"Gênero: {bbcf.genero}");
             Console.ReadKey();
-//>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
+            //>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
         }
     }
 }
