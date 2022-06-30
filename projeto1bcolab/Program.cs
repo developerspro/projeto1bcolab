@@ -133,6 +133,14 @@ namespace projeto1bcolab
             Console.WriteLine("Estudante " + estudante.nome);
             Console.WriteLine("instrutor " + instrutor.nome);
             Console.ReadKey();
+
+            //Grazielle
+            esporte basquete = new esporte();
+            basquete.estilo = "quadra";
+            basquete.integrante = int.Parse("20");
+            Console.WriteLine("estilo" + basquete.estilo);
+            Console.WriteLine("integrante" + basquete.estilo);
+            Console.ReadKey();
         }
     }
 }
