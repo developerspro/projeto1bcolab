@@ -47,6 +47,7 @@
     <Compile Include="aula.cs" />
     <Compile Include="animal.cs" />
     <Compile Include="cores.cs" />
+    <Compile Include="esporte.cs" />
     <Compile Include="jogo.cs" />
     <Compile Include="marcas.cs" />
     <Compile Include="musica.cs" />
