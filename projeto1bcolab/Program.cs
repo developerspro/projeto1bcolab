@@ -88,7 +88,7 @@ namespace projeto1bcolab
          
 
             //Alice
-            acessorios pessoa = new projeto1bcolab.acessorios();
+            acessorios pessoa = new acessorios();
             pessoa.acessorios = "pulseira";
             Console.WriteLine("acessorio" +pessoa.acessorios);
 
@@ -107,8 +107,19 @@ namespace projeto1bcolab
             bbcf.genero = "Fighting Game";
             Console.WriteLine($"Nome: {bbcf.nome}");
             Console.WriteLine($"Gênero: {bbcf.genero}");
-            Console.ReadKey();
             //>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
+
+            //Raquel
+            int numero;
+            Pessoa estudante;
+            estudante = new Pessoa();
+            Pessoa instrutor;
+            instrutor = new Pessoa();
+            estudante.nome = "Raquel";
+            instrutor.nome = "Lary";
+            Console.WriteLine("Estudante " + estudante.nome);
+            Console.WriteLine("instrutor " + instrutor.nome);
+            Console.ReadKey();
         }
     }
 }
