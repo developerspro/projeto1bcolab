@@ -62,7 +62,13 @@ namespace projeto1bcolab
             Console.WriteLine("SmartPhone:" + samsung.nome);
             Console.WriteLine("Serie:" + samsung.serie);
 
-          
+            //Lucas
+            PC programado = new PC();
+            programado.marca = "Queijo prato";
+            programado.modelo = "presunto";
+            Console.WriteLine("Pc:" + programado.marca);
+            Console.WriteLine("Pc:" + programado.modelo);
+
 
             //Alexandre
             veiculo carro = new veiculo();

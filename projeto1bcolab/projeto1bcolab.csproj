@@ -51,7 +51,11 @@
     <Compile Include="jogo.cs" />
     <Compile Include="marcas.cs" />
     <Compile Include="musica.cs" />
+<<<<<<< HEAD
     <Compile Include="Eletronico.cs" />
+=======
+    <Compile Include="PC.cs" />
+>>>>>>> ae964e1c18d734241a83fa16b322ae5a986a4bb8
     <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
