@@ -85,7 +85,18 @@ namespace projeto1bcolab
             cores.tonalidade = "azul escuro";
             Console.WriteLine("cores:" +cores.nome);
             Console.WriteLine("cores:" +cores.tonalidade);
-         
+
+            //Arthur
+            Eletronico PC = new Eletronico();
+            PC.tipo = "PC gamer";
+            PC.modelo = "Acer nitro 5";
+            PC.valor = double.Parse("12000");
+            PC.serie = double.Parse("894564564");
+            Console.WriteLine("tipo: " + PC.tipo);
+            Console.WriteLine("valor: R$" + PC.valor);
+            Console.WriteLine("serie: " + PC.serie);
+            Console.WriteLine("modelo: " + PC.modelo);
+
 
             //Alice
             acessorios pessoa = new acessorios();
