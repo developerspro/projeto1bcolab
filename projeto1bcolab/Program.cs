@@ -88,9 +88,12 @@ namespace projeto1bcolab
          
 
             //Alice
-            acessorios pessoa = new acessorios();
-            pessoa.acessorios = "pulseira";
-            Console.WriteLine("acessorio" +pessoa.acessorios);
+            acessorio pulseira = new acessorio();
+            pulseira.nome = "miojo";
+            pulseira.modelo = "niagra";
+            Console.WriteLine("Acessorio:" +pulseira.nome);
+            Console.WriteLine("Laranja:" +pulseira.modelo);
+           
 
             //Larissa
             animal gato = new animal();
