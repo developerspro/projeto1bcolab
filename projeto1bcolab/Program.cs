@@ -87,7 +87,7 @@ namespace projeto1bcolab
             Console.WriteLine("cores:" +cores.tonalidade);
          
 
-            //Alice
+            //AliceF
             acessorio pulseira = new acessorio();
             pulseira.nome = "miojo";
             pulseira.modelo = "niagra";
