@@ -110,7 +110,6 @@ namespace projeto1bcolab
             //>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
 
             //Raquel
-            int numero;
             Pessoa estudante;
             estudante = new Pessoa();
             Pessoa instrutor;
