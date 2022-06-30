@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace projeto1bcolab
 {
-    class acessorios
+    class acessorio
     {
+        public string nome;
+        public string modelo;
     }
 }

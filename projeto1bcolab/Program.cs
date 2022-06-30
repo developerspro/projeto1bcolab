@@ -87,10 +87,13 @@ namespace projeto1bcolab
             Console.WriteLine("cores:" +cores.tonalidade);
          
 
-            //Alice
-            acessorios pessoa = new acessorios();
-            pessoa.acessorios = "pulseira";
-            Console.WriteLine("acessorio" +pessoa.acessorios);
+            //AliceF
+            acessorio pulseira = new acessorio();
+            pulseira.nome = "miojo";
+            pulseira.modelo = "niagra";
+            Console.WriteLine("Acessorio:" +pulseira.nome);
+            Console.WriteLine("Laranja:" +pulseira.modelo);
+           
 
             //Larissa
             animal gato = new animal();
@@ -110,7 +113,6 @@ namespace projeto1bcolab
             //>>>>>>> d90be4972650745b0354d3ba54a0324ac0454490
 
             //Raquel
-            int numero;
             Pessoa estudante;
             estudante = new Pessoa();
             Pessoa instrutor;
