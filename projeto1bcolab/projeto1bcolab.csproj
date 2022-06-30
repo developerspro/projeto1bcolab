@@ -50,6 +50,7 @@
     <Compile Include="jogo.cs" />
     <Compile Include="marcas.cs" />
     <Compile Include="musica.cs" />
+    <Compile Include="PC.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
