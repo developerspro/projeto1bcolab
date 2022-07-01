@@ -1,0 +1,5 @@
+C:\Users\arthu\Downloads\projeto1bcolab-main\Classes PCs Arthur\Classes PCs Arthur\obj\Debug\netcoreapp3.1\Classes PCs Arthur.csproj.AssemblyReference.cache
+C:\Users\arthu\Downloads\projeto1bcolab-main\Classes PCs Arthur\Classes PCs Arthur\obj\Debug\netcoreapp3.1\Classes PCs Arthur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\Downloads\projeto1bcolab-main\Classes PCs Arthur\Classes PCs Arthur\obj\Debug\netcoreapp3.1\Classes PCs Arthur.AssemblyInfoInputs.cache
+C:\Users\arthu\Downloads\projeto1bcolab-main\Classes PCs Arthur\Classes PCs Arthur\obj\Debug\netcoreapp3.1\Classes PCs Arthur.AssemblyInfo.cs
+C:\Users\arthu\Downloads\projeto1bcolab-main\Classes PCs Arthur\Classes PCs Arthur\obj\Debug\netcoreapp3.1\Classes PCs Arthur.csproj.CoreCompileInputs.cache
